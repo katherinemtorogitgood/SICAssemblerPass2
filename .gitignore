@@ -2,3 +2,7 @@
 *.obj
 project2
 grade
+*.o
+*.obj
+project2
+grade

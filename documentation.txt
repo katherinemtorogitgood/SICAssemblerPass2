@@ -1,0 +1,11 @@
+The hardest part of this assignment was figuring out how to correctly generate the M records. 
+Understanding exactly when they were required, how the addresses needed to be calculated, 
+and why they appear after the END directive took a lot of trial and error. Even small mistakes in the 
+format caused the object files to fail the test cases, so getting the M record logic to match the expected 
+output was more difficult than I expected.
+
+Another major challenge was making sure the assembler handled all directives and text records properly. 
+Managing BYTE, WORD, RESB, and RESW without breaking the text record boundaries required careful debugging,
+especially when dealing with long sequences or gaps in memory. Keeping Pass 1 and Pass 2 consistent, and 
+making sure the parsing and encoding worked together, also added complexity to the project. Even though it took 
+time to fix everything, it helped me better understand how an assembler really works behind the scenes.
